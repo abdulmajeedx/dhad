@@ -4,7 +4,7 @@ Tags: blog, news, e-commerce, one-column, wide-blocks, block-styles, block-patte
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,6 +30,9 @@ Tajawal font, (C) Boutros International, SIL Open Font License 1.1 — assets/fo
 IBM Plex Sans Arabic font, (C) IBM Corp., SIL Open Font License 1.1 — assets/fonts/LICENSE-IBM-Plex-Sans-Arabic.txt
 
 == Changelog ==
+
+= 1.0.1 =
+* Store-ready front page (WooCommerce new products + categories), blog home template, store patterns.
 
 = 1.0.0 =
 * Initial release.

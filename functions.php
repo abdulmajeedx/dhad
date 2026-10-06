@@ -7,7 +7,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'DHAD_VERSION', '1.0.0' );
+define( 'DHAD_VERSION', '1.0.1' );
 
 /** Theme supports and editor styles. */
 add_action(
