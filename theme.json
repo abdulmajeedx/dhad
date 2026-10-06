@@ -1,0 +1,157 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "ضاد",
+	"settings": {
+		"appearanceTools": true,
+		"useRootPaddingAwareAlignments": true,
+		"layout": {
+			"contentSize": "720px",
+			"wideSize": "1180px"
+		},
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"palette": [
+				{ "slug": "base", "name": "الخلفية", "color": "#FFFFFF" },
+				{ "slug": "surface", "name": "السطح", "color": "#F6F5F2" },
+				{ "slug": "line", "name": "الخط", "color": "#E4E1DA" },
+				{ "slug": "contrast", "name": "النص", "color": "#1B1B1F" },
+				{ "slug": "muted", "name": "نص خافت", "color": "#6B6B73" },
+				{ "slug": "accent", "name": "اللون الرئيسي", "color": "#0F6E56" },
+				{ "slug": "accent-soft", "name": "رئيسي فاتح", "color": "#E1F5EE" }
+			],
+			"duotone": []
+		},
+		"typography": {
+			"fluid": true,
+			"writingMode": true,
+			"fontFamilies": [
+				{
+					"slug": "body",
+					"name": "Tajawal (النص)",
+					"fontFamily": "Tajawal, \"Segoe UI\", Tahoma, system-ui, sans-serif",
+					"fontFace": [
+						{ "fontFamily": "Tajawal", "fontWeight": "400", "fontStyle": "normal", "fontDisplay": "swap", "unicodeRange": "U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0898-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC", "src": [ "file:./assets/fonts/tajawal-arabic-400-normal.woff2" ] },
+						{ "fontFamily": "Tajawal", "fontWeight": "500", "fontStyle": "normal", "fontDisplay": "swap", "unicodeRange": "U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0898-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC", "src": [ "file:./assets/fonts/tajawal-arabic-500-normal.woff2" ] },
+						{ "fontFamily": "Tajawal", "fontWeight": "700", "fontStyle": "normal", "fontDisplay": "swap", "unicodeRange": "U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0898-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC", "src": [ "file:./assets/fonts/tajawal-arabic-700-normal.woff2" ] },
+						{ "fontFamily": "Tajawal", "fontWeight": "800", "fontStyle": "normal", "fontDisplay": "swap", "unicodeRange": "U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0898-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC", "src": [ "file:./assets/fonts/tajawal-arabic-800-normal.woff2" ] },
+						{ "fontFamily": "Tajawal", "fontWeight": "400", "fontStyle": "normal", "fontDisplay": "swap", "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD", "src": [ "file:./assets/fonts/tajawal-latin-400-normal.woff2" ] },
+						{ "fontFamily": "Tajawal", "fontWeight": "500", "fontStyle": "normal", "fontDisplay": "swap", "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD", "src": [ "file:./assets/fonts/tajawal-latin-500-normal.woff2" ] },
+						{ "fontFamily": "Tajawal", "fontWeight": "700", "fontStyle": "normal", "fontDisplay": "swap", "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD", "src": [ "file:./assets/fonts/tajawal-latin-700-normal.woff2" ] },
+						{ "fontFamily": "Tajawal", "fontWeight": "800", "fontStyle": "normal", "fontDisplay": "swap", "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD", "src": [ "file:./assets/fonts/tajawal-latin-800-normal.woff2" ] }
+					]
+				},
+				{
+					"slug": "heading",
+					"name": "IBM Plex Sans Arabic (العناوين)",
+					"fontFamily": "\"IBM Plex Sans Arabic\", Tajawal, \"Segoe UI\", Tahoma, system-ui, sans-serif",
+					"fontFace": [
+						{ "fontFamily": "IBM Plex Sans Arabic", "fontWeight": "400", "fontStyle": "normal", "fontDisplay": "swap", "src": [ "file:./assets/fonts/ibm-plex-sans-arabic-arabic-400-normal.woff2" ] },
+						{ "fontFamily": "IBM Plex Sans Arabic", "fontWeight": "600", "fontStyle": "normal", "fontDisplay": "swap", "src": [ "file:./assets/fonts/ibm-plex-sans-arabic-arabic-600-normal.woff2" ] },
+						{ "fontFamily": "IBM Plex Sans Arabic", "fontWeight": "700", "fontStyle": "normal", "fontDisplay": "swap", "src": [ "file:./assets/fonts/ibm-plex-sans-arabic-arabic-700-normal.woff2" ] }
+					]
+				},
+				{
+					"slug": "mono",
+					"name": "Monospace",
+					"fontFamily": "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+				}
+			],
+			"fontSizes": [
+				{ "slug": "small", "name": "صغير", "size": "0.9375rem", "fluid": false },
+				{ "slug": "medium", "name": "متوسط", "size": "1.125rem", "fluid": { "min": "1.0625rem", "max": "1.125rem" } },
+				{ "slug": "large", "name": "كبير", "size": "1.5rem", "fluid": { "min": "1.3125rem", "max": "1.5rem" } },
+				{ "slug": "x-large", "name": "كبير جدًا", "size": "2.125rem", "fluid": { "min": "1.75rem", "max": "2.125rem" } },
+				{ "slug": "xx-large", "name": "ضخم", "size": "3rem", "fluid": { "min": "2.25rem", "max": "3rem" } }
+			]
+		},
+		"spacing": {
+			"units": [ "px", "em", "rem", "vh", "vw", "%" ],
+			"spacingSizes": [
+				{ "slug": "20", "name": "1", "size": "0.5rem" },
+				{ "slug": "30", "name": "2", "size": "0.75rem" },
+				{ "slug": "40", "name": "3", "size": "1rem" },
+				{ "slug": "50", "name": "4", "size": "1.5rem" },
+				{ "slug": "60", "name": "5", "size": "2.5rem" },
+				{ "slug": "70", "name": "6", "size": "4rem" },
+				{ "slug": "80", "name": "7", "size": "6rem" }
+			]
+		},
+		"custom": {
+			"radius": "12px",
+			"lineHeight": { "body": 1.85, "heading": 1.35, "tight": 1.2 }
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var(--wp--preset--color--base)",
+			"text": "var(--wp--preset--color--contrast)"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--body)",
+			"fontSize": "var(--wp--preset--font-size--medium)",
+			"lineHeight": "var(--wp--custom--line-height--body)",
+			"fontWeight": "400"
+		},
+		"spacing": {
+			"padding": {
+				"left": "var(--wp--preset--spacing--40)",
+				"right": "var(--wp--preset--spacing--40)"
+			},
+			"blockGap": "1.5rem"
+		},
+		"elements": {
+			"link": {
+				"color": { "text": "var(--wp--preset--color--accent)" },
+				":hover": { "typography": { "textDecoration": "none" } }
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--heading)",
+					"fontWeight": "700",
+					"lineHeight": "var(--wp--custom--line-height--heading)"
+				}
+			},
+			"h1": { "typography": { "fontSize": "var(--wp--preset--font-size--xx-large)", "lineHeight": "var(--wp--custom--line-height--tight)" } },
+			"h2": { "typography": { "fontSize": "var(--wp--preset--font-size--x-large)" } },
+			"h3": { "typography": { "fontSize": "var(--wp--preset--font-size--large)" } },
+			"h4": { "typography": { "fontSize": "var(--wp--preset--font-size--medium)", "fontWeight": "600" } },
+			"button": {
+				"color": { "background": "var(--wp--preset--color--accent)", "text": "var(--wp--preset--color--base)" },
+				"typography": { "fontWeight": "700", "fontSize": "var(--wp--preset--font-size--medium)" },
+				"border": { "radius": "var(--wp--custom--radius)", "width": "0" },
+				"spacing": { "padding": { "top": "0.75rem", "bottom": "0.75rem", "left": "1.5rem", "right": "1.5rem" } },
+				":hover": { "color": { "background": "var(--wp--preset--color--contrast)", "text": "var(--wp--preset--color--base)" } }
+			},
+			"caption": { "color": { "text": "var(--wp--preset--color--muted)" }, "typography": { "fontSize": "var(--wp--preset--font-size--small)" } }
+		},
+		"blocks": {
+			"core/site-title": { "typography": { "fontFamily": "var(--wp--preset--font-family--heading)", "fontWeight": "800", "fontSize": "var(--wp--preset--font-size--large)" }, "elements": { "link": { "color": { "text": "var(--wp--preset--color--contrast)" }, "typography": { "textDecoration": "none" } } } },
+			"core/navigation": { "typography": { "fontWeight": "500" }, "elements": { "link": { "color": { "text": "var(--wp--preset--color--contrast)" }, "typography": { "textDecoration": "none" }, ":hover": { "color": { "text": "var(--wp--preset--color--accent)" } } } } },
+			"core/post-title": { "typography": { "fontWeight": "700" }, "elements": { "link": { "color": { "text": "var(--wp--preset--color--contrast)" }, "typography": { "textDecoration": "none" }, ":hover": { "color": { "text": "var(--wp--preset--color--accent)" } } } } },
+			"core/post-date": { "color": { "text": "var(--wp--preset--color--muted)" }, "typography": { "fontSize": "var(--wp--preset--font-size--small)" } },
+			"core/post-terms": { "typography": { "fontSize": "var(--wp--preset--font-size--small)", "fontWeight": "500" } },
+			"core/post-excerpt": { "color": { "text": "var(--wp--preset--color--muted)" } },
+			"core/post-author-name": { "typography": { "fontSize": "var(--wp--preset--font-size--small)", "fontWeight": "500" } },
+			"core/quote": { "typography": { "fontSize": "var(--wp--preset--font-size--large)", "fontFamily": "var(--wp--preset--font-family--heading)", "fontWeight": "400" }, "border": { "width": "0" } },
+			"core/pullquote": { "typography": { "fontFamily": "var(--wp--preset--font-family--heading)", "fontSize": "var(--wp--preset--font-size--x-large)", "lineHeight": "1.4" }, "border": { "width": "1px 0", "style": "solid", "color": "var(--wp--preset--color--line)" } },
+			"core/code": { "typography": { "fontFamily": "var(--wp--preset--font-family--mono)", "fontSize": "0.9375rem" }, "color": { "background": "var(--wp--preset--color--surface)" }, "border": { "radius": "var(--wp--custom--radius)", "width": "1px", "style": "solid", "color": "var(--wp--preset--color--line)" }, "spacing": { "padding": { "top": "1rem", "bottom": "1rem", "left": "1.25rem", "right": "1.25rem" } } },
+			"core/separator": { "color": { "text": "var(--wp--preset--color--line)" }, "border": { "width": "0 0 1px" } },
+			"core/search": { "elements": { "button": { "border": { "radius": "var(--wp--custom--radius)" } } }, "border": { "radius": "var(--wp--custom--radius)" } },
+			"core/image": { "border": { "radius": "var(--wp--custom--radius)" } },
+			"core/post-featured-image": { "border": { "radius": "var(--wp--custom--radius)" } },
+			"core/comments-title": { "typography": { "fontSize": "var(--wp--preset--font-size--large)" } },
+			"core/post-comments-form": { "elements": { "button": { "border": { "radius": "var(--wp--custom--radius)" } } } }
+		}
+	},
+	"customTemplates": [
+		{ "name": "page-no-title", "title": "صفحة بلا عنوان", "postTypes": [ "page" ] },
+		{ "name": "page-wide", "title": "صفحة عريضة", "postTypes": [ "page", "post" ] }
+	],
+	"templateParts": [
+		{ "name": "header", "title": "الترويسة", "area": "header" },
+		{ "name": "footer", "title": "التذييل", "area": "footer" },
+		{ "name": "post-meta", "title": "بيانات المقال", "area": "uncategorized" }
+	]
+}

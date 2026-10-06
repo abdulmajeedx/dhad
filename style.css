@@ -1,0 +1,56 @@
+/*
+Theme Name: Dhad
+Theme URI: https://github.com/abdulmajeedx/dhad
+Author: Abdulmajeed
+Author URI: https://github.com/abdulmajeedx
+Description: ضاد — an Arabic-first block theme. Built RTL from the ground up with a calibrated Arabic type system, logical CSS, zero front-end JavaScript, and ready-made style variations for blogs, magazines and stores.
+Requires at least: 6.6
+Tested up to: 6.8
+Requires PHP: 7.4
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: dhad
+Tags: blog, news, e-commerce, one-column, wide-blocks, block-styles, block-patterns, full-site-editing, style-variations, rtl-language-support, translation-ready, custom-colors, custom-logo, editor-style, featured-images
+*/
+
+/*
+ * All visual styling lives in theme.json and the style variations.
+ * This file only carries rules that theme.json cannot express yet.
+ */
+
+/* Arabic/Latin mixed text: let the browser pick direction per paragraph. */
+.wp-block-post-content p,
+.wp-block-post-content li,
+.wp-block-post-excerpt__excerpt,
+.wp-block-quote p {
+	unicode-bidi: plaintext;
+}
+
+/* Arabic numerals rendered as proportional, Latin kept tabular in tables. */
+.wp-block-table td,
+.wp-block-table th {
+	font-variant-numeric: tabular-nums;
+}
+
+/* Code and pre are always LTR inside Arabic pages. */
+.wp-block-code,
+pre,
+code,
+kbd {
+	direction: ltr;
+	unicode-bidi: isolate;
+	text-align: start;
+}
+
+/* Underline offset tuned for Arabic descenders. */
+a:where(:not(.wp-element-button)) {
+	text-underline-offset: 0.2em;
+	text-decoration-thickness: 1px;
+}
+
+/* Headings: tighter tracking looks wrong in Arabic; keep normal. */
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: normal;
+	overflow-wrap: anywhere;
+}
