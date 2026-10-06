@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "رمل",
+	"settings": {
+		"color": {
+			"palette": [
+				{ "slug": "base", "name": "الخلفية", "color": "#FBF7F0" },
+				{ "slug": "surface", "name": "السطح", "color": "#F2EBDD" },
+				{ "slug": "line", "name": "الخط", "color": "#E0D5C0" },
+				{ "slug": "contrast", "name": "النص", "color": "#2B2118" },
+				{ "slug": "muted", "name": "نص خافت", "color": "#7A6A58" },
+				{ "slug": "accent", "name": "اللون الرئيسي", "color": "#A8552B" },
+				{ "slug": "accent-soft", "name": "رئيسي فاتح", "color": "#F6E3D6" }
+			]
+		},
+		"custom": { "radius": "20px" }
+	}
+}

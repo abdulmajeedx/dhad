@@ -1,0 +1,35 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "مجلة",
+	"settings": {
+		"color": {
+			"palette": [
+				{ "slug": "base", "name": "الخلفية", "color": "#FFFFFF" },
+				{ "slug": "surface", "name": "السطح", "color": "#F3F3F3" },
+				{ "slug": "line", "name": "الخط", "color": "#D9D9D9" },
+				{ "slug": "contrast", "name": "النص", "color": "#111111" },
+				{ "slug": "muted", "name": "نص خافت", "color": "#5C5C5C" },
+				{ "slug": "accent", "name": "اللون الرئيسي", "color": "#B3261E" },
+				{ "slug": "accent-soft", "name": "رئيسي فاتح", "color": "#FBE9E7" }
+			]
+		},
+		"layout": { "contentSize": "680px", "wideSize": "1280px" },
+		"custom": { "radius": "0px", "lineHeight": { "body": 1.8, "heading": 1.25, "tight": 1.1 } }
+	},
+	"styles": {
+		"typography": { "fontFamily": "var(--wp--preset--font-family--heading)" },
+		"elements": {
+			"heading": { "typography": { "fontWeight": "700" } },
+			"h1": { "typography": { "fontSize": "clamp(2.5rem, 5vw, 3.75rem)" } },
+			"button": { "border": { "radius": "0" } }
+		},
+		"blocks": {
+			"core/site-title": { "typography": { "fontSize": "var(--wp--preset--font-size--x-large)", "fontWeight": "700" } },
+			"core/post-title": { "typography": { "fontWeight": "700" } },
+			"core/post-terms": { "typography": { "textTransform": "uppercase", "letterSpacing": "0.04em" } },
+			"core/post-date": { "typography": { "fontFamily": "var(--wp--preset--font-family--body)" } },
+			"core/separator": { "color": { "text": "var(--wp--preset--color--contrast)" }, "border": { "width": "0 0 2px" } }
+		}
+	}
+}

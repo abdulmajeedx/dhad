@@ -1,0 +1,26 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "ليل",
+	"settings": {
+		"color": {
+			"palette": [
+				{ "slug": "base", "name": "الخلفية", "color": "#0F1115" },
+				{ "slug": "surface", "name": "السطح", "color": "#181B22" },
+				{ "slug": "line", "name": "الخط", "color": "#2A2F3A" },
+				{ "slug": "contrast", "name": "النص", "color": "#F2F3F5" },
+				{ "slug": "muted", "name": "نص خافت", "color": "#9AA0AC" },
+				{ "slug": "accent", "name": "اللون الرئيسي", "color": "#4FD1A5" },
+				{ "slug": "accent-soft", "name": "رئيسي فاتح", "color": "#143229" }
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"button": {
+				"color": { "background": "var(--wp--preset--color--accent)", "text": "var(--wp--preset--color--base)" },
+				":hover": { "color": { "background": "var(--wp--preset--color--contrast)", "text": "var(--wp--preset--color--base)" } }
+			}
+		}
+	}
+}
